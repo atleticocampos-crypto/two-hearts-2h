@@ -281,4 +281,371 @@ tailwind.config = {
 <footer class="bg-ink text-white/80 py-12">
   <div class="max-w-5xl mx-auto px-4 text-center">
     <svg class="mx-auto w-14 h-auto" viewBox="0 0 200 150" aria-hidden="true" style="--halo:#1F1F24"><use href="#logo2h"/></svg>
-    <p class="mt-4 text-sm max-w-2xl mx-
+    <p class="mt-4 text-sm max-w-2xl mx-auto leading-relaxed" data-i18n="foot_disc">$2H is a community-driven memecoin with no intrinsic value or expectation of financial return. It is for entertainment and community purposes only. Not financial advice. Do your own research and never invest more than you can afford to lose.</p>
+    <div class="mt-6 flex justify-center gap-6 text-sm font-semibold">
+      <a class="hover:text-rose-300 transition-colors" href="https://pump.fun/coin/8JqBxMXkiM2fDuTNvabxQb4pdk7vYZRWMygjNR31pump" target="_blank" rel="noopener noreferrer">pump.fun</a>
+      <a class="hover:text-rose-300 transition-colors" href="https://t.me/Two_Hearts_2H" target="_blank" rel="noopener noreferrer">Telegram</a>
+    </div>
+    <p class="mt-6 text-xs text-white/50"><span data-i18n="foot_rights">© 2026 Two Hearts ($2H). All rights reserved.</span></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var CA = '8JqBxMXkiM2fDuTNvabxQb4pdk7vYZRWMygjNR31pump';
+  var BUY_URL = 'https://pump.fun/coin/' + CA;
+  var HEART_PATH = 'M68 125C20 90 10 50 32 32C48 20 62 28 68 40C74 28 88 20 104 32C126 50 116 90 68 125Z';
+
+  var T = {
+    en: {
+      nav_countdown: 'Countdown', nav_sync: 'Sync Test', nav_vision: 'Vision', nav_how: 'How to Buy', nav_roadmap: 'Roadmap', nav_buy: 'Buy $2H',
+      hero_badge: 'The memecoin of lovers · Solana',
+      hero_title: 'Two Hearts, One Soul on Solana',
+      hero_sub: "The first memecoin made for couples, lovers and soulmates who celebrate love and Valentine's Day on the blockchain.",
+      ca_label: 'Official Contract Address (CA)', copy: 'Copy CA', copied: 'Copied! ❤️',
+      cta_buy: 'Buy on pump.fun', cta_tg: 'Join Telegram',
+      cd_title: "Countdown to Valentine's Day", cd_sub: 'The big yearly milestone of the $2H community: February 14th.',
+      days: 'Days', hours: 'Hours', mins: 'Minutes', secs: 'Seconds', cd_date_prefix: 'Next Valentine\'s Day: ',
+      sync_title: 'Love Frequency Meter', sync_sub: "Type your name and your partner's (or crush's) and sync your hearts.",
+      name1_ph: 'Your name', name2_ph: 'Their name', sync_btn: 'Sync Hearts', sync_err: 'Please enter both names ❤️',
+      sync_label: 'Heart Sync', share_tg: 'Share on Telegram', download: 'Download card',
+      share_text: '{a} & {b} are {p}% in sync on $2H ❤️ Two Hearts, One Soul on Solana.',
+      msgs: [
+        'Your hearts are already in tune. Two beats, one rhythm.',
+        'Rare chemistry detected. This bond is bullish for life.',
+        'Perfect sync. Your love is the only all-time high that matters.'
+      ],
+      vis_title: 'Two Hearts, One Token', vis_sub: 'Two hearts that beat together as one.',
+      c1_t: 'Eternal Love on the Blockchain', c1_d: 'An immortal digital symbol of love on Solana.',
+      c2_t: 'Gift $2H to Your Special Person', c2_d: 'Better than flowers that wither: a token you share.',
+      c3_t: 'A Community Without Borders', c3_d: 'Lovers from all over the world united under one heartbeat.',
+      how_title: 'How to Buy $2H', how_sub: '3 simple steps.',
+      s1_t: 'Download Phantom Wallet', s1_d: 'Install Phantom from the official site or app store and create your wallet. Never share your seed phrase.',
+      s2_t: 'Get Solana (SOL)', s2_d: 'Buy SOL on an exchange and send it to your Phantom wallet address.',
+      s3_t: 'Go to pump.fun and share your $2H', s3_d: 'Open pump.fun, paste the CA below, swap SOL for $2H and share it with your special person.',
+      rm_title: 'Romantic Roadmap',
+      p1_tag: 'Phase 1', p1_t: 'Initial Spark', p1_d: 'Fair launch on pump.fun, opening of Telegram (@Two_Hearts_2H) and the first lovers holding.',
+      p2_tag: 'Phase 2', p2_t: 'First Heartbeat', p2_d: 'Official multilingual website, couples meme campaigns and organic growth along the curve.',
+      p3_tag: 'Phase 3', p3_t: 'Soulmates', p3_d: "Graduation on Solana, an interactive Telegram Mini App for couples (digital letters and challenges) and a grand Valentine's Day event.",
+      foot_disc: '$2H is a community-driven memecoin with no intrinsic value or expectation of financial return. It is for entertainment and community purposes only. Not financial advice. Do your own research and never invest more than you can afford to lose.',
+      foot_rights: '© 2026 Two Hearts ($2H). All rights reserved.'
+    },
+    es: {
+      nav_countdown: 'Cuenta atrás', nav_sync: 'Sincronía', nav_vision: 'Visión', nav_how: 'Cómo comprar', nav_roadmap: 'Roadmap', nav_buy: 'Comprar $2H',
+      hero_badge: 'La memecoin de los enamorados · Solana',
+      hero_title: 'Dos Corazones, Una Sola Alma en Solana',
+      hero_sub: 'La primera memecoin creada para parejas, enamorados y almas gemelas que celebran el amor y el Día de los Enamorados en la blockchain.',
+      ca_label: 'Contrato Oficial (CA)', copy: 'Copiar CA', copied: '¡Copiado! ❤️',
+      cta_buy: 'Comprar en pump.fun', cta_tg: 'Unirse a Telegram',
+      cd_title: 'Cuenta regresiva al Día de los Enamorados', cd_sub: 'El gran hito anual de la comunidad $2H: el 14 de febrero.',
+      days: 'Días', hours: 'Horas', mins: 'Minutos', secs: 'Segundos', cd_date_prefix: 'Próximo Día de los Enamorados: ',
+      sync_title: 'Prueba de Sincronía', sync_sub: 'Escribe tu nombre y el de tu pareja (o crush) y sincroniza sus corazones.',
+      name1_ph: 'Tu nombre', name2_ph: 'Su nombre', sync_btn: 'Sincronizar Corazones', sync_err: 'Escribe ambos nombres ❤️',
+      sync_label: 'Sincronía de Corazones', share_tg: 'Compartir en Telegram', download: 'Descargar tarjeta',
+      share_text: '{a} y {b} tienen {p}% de sincronía en $2H ❤️ Dos Corazones, Una Sola Alma en Solana.',
+      msgs: [
+        'Sus corazones ya están afinados. Dos latidos, un solo ritmo.',
+        'Química rara detectada. Este vínculo es alcista de por vida.',
+        'Sincronía perfecta. Su amor es el único máximo histórico que importa.'
+      ],
+      vis_title: 'Dos Corazones, Un Solo Token', vis_sub: 'Dos corazones que juntos laten como uno solo.',
+      c1_t: 'Amor Eterno en Blockchain', c1_d: 'Un símbolo digital inmortal del amor en Solana.',
+      c2_t: 'Regala $2H a tu Persona Especial', c2_d: 'Mejor que flores que se marchitan: un token compartido.',
+      c3_t: 'Comunidad Sin Fronteras', c3_d: 'Enamorados de todo el mundo unidos bajo un mismo latido.',
+      how_title: 'Cómo Comprar $2H', how_sub: '3 pasos simples.',
+      s1_t: 'Descarga Phantom Wallet', s1_d: 'Instala Phantom desde el sitio oficial o la tienda de apps y crea tu billetera. Nunca compartas tu frase semilla.',
+      s2_t: 'Consigue Solana (SOL)', s2_d: 'Compra SOL en un exchange y envíalo a la dirección de tu billetera Phantom.',
+      s3_t: 'Entra a pump.fun y comparte tus $2H', s3_d: 'Abre pump.fun, pega el CA de abajo, cambia SOL por $2H y compártelo con tu persona especial.',
+      rm_title: 'Roadmap Romántico',
+      p1_tag: 'Fase 1', p1_t: 'Chispa Inicial', p1_d: 'Lanzamiento justo en pump.fun, apertura de Telegram (@Two_Hearts_2H) y primeros enamorados holdeando.',
+      p2_tag: 'Fase 2', p2_t: 'Primer Latido', p2_d: 'Web oficial multi-idioma, campañas de memes de parejas y crecimiento orgánico en la curva.',
+      p3_tag: 'Fase 3', p3_t: 'Almas Gemelas', p3_d: 'Graduación en Solana, Telegram Mini App interactiva para parejas (cartas digitales y retos) y gran evento de San Valentín.',
+      foot_disc: '$2H es una memecoin comunitaria sin valor intrínseco ni expectativa de retorno financiero. Es solo para entretenimiento y comunidad. No es asesoría financiera. Investiga por tu cuenta y nunca inviertas más de lo que puedas perder.',
+      foot_rights: '© 2026 Two Hearts ($2H). Todos los derechos reservados.'
+    },
+    ru: {
+      nav_countdown: 'Отсчёт', nav_sync: 'Тест чувств', nav_vision: 'Идея', nav_how: 'Как купить', nav_roadmap: 'Дорожная карта', nav_buy: 'Купить $2H',
+      hero_badge: 'Мемкоин для влюблённых · Solana',
+      hero_title: 'Два сердца — одна душа на Solana',
+      hero_sub: 'Первый мемкоин для пар, влюблённых и родственных душ, которые отмечают любовь и День святого Валентина в блокчейне.',
+      ca_label: 'Официальный адрес контракта (CA)', copy: 'Копировать CA', copied: 'Скопировано! ❤️',
+      cta_buy: 'Купить на pump.fun', cta_tg: 'Войти в Telegram',
+      cd_title: 'Обратный отсчёт до Дня святого Валентина', cd_sub: 'Главная ежегодная веха сообщества $2H: 14 февраля.',
+      days: 'Дни', hours: 'Часы', mins: 'Минуты', secs: 'Секунды', cd_date_prefix: 'Ближайший День святого Валентина: ',
+      sync_title: 'Измеритель частоты любви', sync_sub: 'Введите своё имя и имя любимого человека (или симпатии) и синхронизируйте сердца.',
+      name1_ph: 'Ваше имя', name2_ph: 'Его/её имя', sync_btn: 'Синхронизировать сердца', sync_err: 'Введите оба имени ❤️',
+      sync_label: 'Синхронность сердец', share_tg: 'Поделиться в Telegram', download: 'Скачать карточку',
+      share_text: '{a} и {b}: синхронность {p}% в $2H ❤️ Два сердца — одна душа на Solana.',
+      msgs: [
+        'Ваши сердца уже настроены в унисон. Два удара — один ритм.',
+        'Редкая химия! Эта связь растёт только вверх — навсегда.',
+        'Идеальная синхронность. Ваша любовь — единственный исторический максимум, который имеет значение.'
+      ],
+      vis_title: 'Два сердца — один токен', vis_sub: 'Два сердца, которые бьются как одно.',
+      c1_t: 'Вечная любовь в блокчейне', c1_d: 'Бессмертный цифровой символ любви на Solana.',
+      c2_t: 'Подари $2H любимому человеку', c2_d: 'Лучше увядающих цветов — токен, который вы делите на двоих.',
+      c3_t: 'Сообщество без границ', c3_d: 'Влюблённые со всего мира, объединённые одним сердцебиением.',
+      how_title: 'Как купить $2H', how_sub: '3 простых шага.',
+      s1_t: 'Скачайте кошелёк Phantom', s1_d: 'Установите Phantom с официального сайта или из магазина приложений и создайте кошелёк. Никому не показывайте seed-фразу.',
+      s2_t: 'Получите Solana (SOL)', s2_d: 'Купите SOL на бирже и отправьте на адрес вашего кошелька Phantom.',
+      s3_t: 'Зайдите на pump.fun и делитесь $2H', s3_d: 'Откройте pump.fun, вставьте CA ниже, обменяйте SOL на $2H и поделитесь с любимым человеком.',
+      rm_title: 'Романтическая дорожная карта',
+      p1_tag: 'Этап 1', p1_t: 'Первая искра', p1_d: 'Честный запуск на pump.fun, открытие Telegram (@Two_Hearts_2H) и первые влюблённые холдеры.',
+      p2_tag: 'Этап 2', p2_t: 'Первое сердцебиение', p2_d: 'Официальный многоязычный сайт, мем-кампании для пар и органический рост на кривой.',
+      p3_tag: 'Этап 3', p3_t: 'Родственные души', p3_d: '«Выпускной» токена на Solana, интерактивное мини-приложение Telegram для пар (цифровые письма и челленджи) и большое событие ко Дню святого Валентина.',
+      foot_disc: '$2H — это сообщественный мемкоин без внутренней стоимости и без обещания дохода. Только для развлечения и общения. Не является финансовым советом. Проводите собственное исследование и не вкладывайте больше, чем готовы потерять.',
+      foot_rights: '© 2026 Two Hearts ($2H). Все права защищены.'
+    },
+    zh: {
+      nav_countdown: '倒计时', nav_sync: '心动测试', nav_vision: '愿景', nav_how: '如何购买', nav_roadmap: '路线图', nav_buy: '购买 $2H',
+      hero_badge: '属于有情人的 Meme 币 · Solana',
+      hero_title: '双心一魂，共鸣 Solana',
+      hero_sub: '首个为情侣、恋人和灵魂伴侣打造的 Meme 币，在区块链上共同庆祝爱情与情人节。',
+      ca_label: '官方合约地址 (CA)', copy: '复制 CA', copied: '已复制！❤️',
+      cta_buy: '在 pump.fun 购买', cta_tg: '加入 Telegram',
+      cd_title: '情人节倒计时', cd_sub: '$2H 社区每年的重要时刻：2 月 14 日。',
+      days: '天', hours: '时', mins: '分', secs: '秒', cd_date_prefix: '下一个情人节：',
+      sync_title: '爱情频率测试', sync_sub: '输入你和另一半（或心动对象）的名字，让两颗心同频共振。',
+      name1_ph: '你的名字', name2_ph: 'TA 的名字', sync_btn: '同步心跳', sync_err: '请输入两个名字 ❤️',
+      sync_label: '心跳同步率', share_tg: '分享到 Telegram', download: '下载卡片',
+      share_text: '{a} 与 {b} 在 $2H 的心动同步率为 {p}% ❤️ 双心一魂，共鸣 Solana。',
+      msgs: [
+        '你们的心早已同频，两次心跳，一个节拍。',
+        '检测到罕见的化学反应，这段感情一路看涨。',
+        '完美同步！你们的爱情，就是唯一重要的历史新高。'
+      ],
+      vis_title: '双心，一枚代币', vis_sub: '两颗心，如同一颗心般跳动。',
+      c1_t: '区块链上的永恒之爱', c1_d: 'Solana 上永不磨灭的数字爱情象征。',
+      c2_t: '把 $2H 送给你的特别之人', c2_d: '比会凋谢的鲜花更好：一枚你们共同拥有的代币。',
+      c3_t: '没有国界的社区', c3_d: '世界各地的有情人，共享同一个心跳。',
+      how_title: '如何购买 $2H', how_sub: '简单三步。',
+      s1_t: '下载 Phantom 钱包', s1_d: '从官网或应用商店安装 Phantom 并创建钱包。切勿向任何人透露助记词。',
+      s2_t: '获取 Solana (SOL)', s2_d: '在交易所购买 SOL，并转入你的 Phantom 钱包地址。',
+      s3_t: '前往 pump.fun 并分享你的 $2H', s3_d: '打开 pump.fun，粘贴下方 CA，用 SOL 兑换 $2H，并与你的特别之人分享。',
+      rm_title: '浪漫路线图',
+      p1_tag: '第一阶段', p1_t: '初始火花', p1_d: '在 pump.fun 公平发射，开通 Telegram（@Two_Hearts_2H），第一批有情人开始持有。',
+      p2_tag: '第二阶段', p2_t: '第一次心跳', p2_d: '官方多语言网站、情侣 Meme 营销活动，以及曲线上的自然增长。',
+      p3_tag: '第三阶段', p3_t: '灵魂伴侣', p3_d: '在 Solana 上完成毕业，推出面向情侣的 Telegram 互动小程序（数字情书与挑战），并举办盛大的情人节活动。',
+      foot_disc: '$2H 是由社区驱动的 Meme 币，不具备内在价值，也不承诺任何财务回报，仅供娱乐和社区交流。不构成投资建议。请自行研究，切勿投入超过你能承受损失的资金。',
+      foot_rights: '© 2026 Two Hearts ($2H). 保留所有权利。'
+    }
+  };
+
+  var lang = 'en';
+  try {
+    var saved = localStorage.getItem('2h_lang');
+    if (saved && T[saved]) lang = saved;
+  } catch (e) {}
+
+  var lastSync = null;
+
+  function t(key) { return (T[lang] && T[lang][key]) || T.en[key] || key; }
+
+  function applyLang(l) {
+    if (!T[l]) l = 'en';
+    lang = l;
+    try { localStorage.setItem('2h_lang', l); } catch (e) {}
+    document.documentElement.lang = l === 'zh' ? 'zh-CN' : l;
+
+    document.querySelectorAll('[data-i18n]').forEach(function (el) {
+      var k = el.getAttribute('data-i18n');
+      if (el.id === 'copyBtn' && copyTimer) return;
+      el.textContent = t(k);
+    });
+    document.querySelectorAll('[data-i18n-ph]').forEach(function (el) {
+      el.setAttribute('placeholder', t(el.getAttribute('data-i18n-ph')));
+    });
+    document.querySelectorAll('.lang-btn').forEach(function (b) {
+      b.classList.toggle('active', b.getAttribute('data-lang') === l);
+    });
+    updateCountdown();
+    if (lastSync) renderSync(lastSync, false);
+  }
+
+  /* Copy CA */
+  var copyTimer = null;
+  var copyBtn = document.getElementById('copyBtn');
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text; ta.setAttribute('readonly', '');
+    ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand('copy'); } catch (e) {}
+    document.body.removeChild(ta);
+  }
+  copyBtn.addEventListener('click', function () {
+    function done() {
+      copyBtn.textContent = t('copied');
+      clearTimeout(copyTimer);
+      copyTimer = setTimeout(function () { copyTimer = null; copyBtn.textContent = t('copy'); }, 2000);
+    }
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(CA).then(done, function () { fallbackCopy(CA); done(); });
+    } else { fallbackCopy(CA); done(); }
+  });
+
+  /* Countdown */
+  function nextValentine() {
+    var now = new Date();
+    var target = new Date(now.getFullYear(), 1, 14, 0, 0, 0);
+    if (now.getTime() > target.getTime() + 24 * 3600 * 1000) target = new Date(now.getFullYear() + 1, 1, 14, 0, 0, 0);
+    return target;
+  }
+  function pad(n) { return String(n).padStart(2, '0'); }
+  function updateCountdown() {
+    var target = nextValentine();
+    var diff = Math.max(0, target.getTime() - Date.now());
+    var d = Math.floor(diff / 86400000);
+    var h = Math.floor(diff % 86400000 / 3600000);
+    var m = Math.floor(diff % 3600000 / 60000);
+    var s = Math.floor(diff % 60000 / 1000);
+    document.getElementById('cdD').textContent = pad(d);
+    document.getElementById('cdH').textContent = pad(h);
+    document.getElementById('cdM').textContent = pad(m);
+    document.getElementById('cdS').textContent = pad(s);
+    var locale = { en: 'en-US', es: 'es-ES', ru: 'ru-RU', zh: 'zh-CN' }[lang];
+    var dateStr;
+    try { dateStr = target.toLocaleDateString(locale, { year: 'numeric', month: 'long', day: 'numeric' }); }
+    catch (e) { dateStr = target.toDateString(); }
+    document.getElementById('cdDate').textContent = t('cd_date_prefix') + dateStr;
+  }
+  setInterval(updateCountdown, 1000);
+
+  /* Sync meter */
+  function hashStr(str) {
+    var h = 2166136261;
+    for (var i = 0; i < str.length; i++) {
+      h ^= str.charCodeAt(i);
+      h = Math.imul(h, 16777619);
+    }
+    return h >>> 0;
+  }
+  function calc(a, b) {
+    var na = a.trim().toLowerCase(), nb = b.trim().toLowerCase();
+    var pair = [na, nb].sort().join('|');
+    var pct = 88 + (hashStr(pair) % 13); // 88..100
+    var tier = pct >= 97 ? 2 : (pct >= 93 ? 1 : 0);
+    return { a: a.trim(), b: b.trim(), pct: pct, tier: tier };
+  }
+  function shareUrl() {
+    return /^https?:/.test(location.href) ? location.href.split('#')[0] : BUY_URL;
+  }
+  function renderSync(r, animate) {
+    document.getElementById('syncResult').classList.remove('hidden');
+    document.getElementById('rN1').textContent = r.a;
+    document.getElementById('rN2').textContent = r.b;
+    document.getElementById('rPct').textContent = r.pct + '%';
+    document.getElementById('rMsg').textContent = t('msgs')[r.tier];
+    var bar = document.getElementById('rBar');
+    if (animate) { bar.style.width = '0%'; requestAnimationFrame(function () { requestAnimationFrame(function () { bar.style.width = r.pct + '%'; }); }); }
+    else bar.style.width = r.pct + '%';
+    var txt = t('share_text').replace('{a}', r.a).replace('{b}', r.b).replace('{p}', r.pct);
+    document.getElementById('shareTg').href = 'https://t.me/share/url?url=' + encodeURIComponent(shareUrl()) + '&text=' + encodeURIComponent(txt);
+  }
+
+  document.getElementById('syncForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var a = document.getElementById('n1').value, b = document.getElementById('n2').value;
+    var err = document.getElementById('syncErr');
+    if (!a.trim() || !b.trim()) { err.classList.remove('hidden'); return; }
+    err.classList.add('hidden');
+    lastSync = calc(a, b);
+    renderSync(lastSync, true);
+    document.getElementById('syncResult').scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
+
+  /* Download card via canvas */
+  function wrapText(ctx, text, x, y, maxW, lh) {
+    var words = text.split(/(\s+)/), line = '', lines = [];
+    var hasSpaces = /\s/.test(text);
+    if (!hasSpaces) { words = text.split(''); }
+    words.forEach(function (w) {
+      var test = line + w;
+      if (ctx.measureText(test).width > maxW && line) { lines.push(line); line = w.trim ? w.replace(/^\s+/, '') : w; }
+      else line = test;
+    });
+    lines.push(line);
+    lines.forEach(function (l, i) { ctx.fillText(l.trim(), x, y + i * lh); });
+    return y + lines.length * lh;
+  }
+  document.getElementById('dlCard').addEventListener('click', function () {
+    if (!lastSync) return;
+    var W = 1080, H = 1350, c = document.createElement('canvas');
+    c.width = W; c.height = H;
+    var ctx = c.getContext('2d');
+    var g = ctx.createLinearGradient(0, 0, W, H);
+    g.addColorStop(0, '#FFFFFF'); g.addColorStop(0.5, '#FFF5F7'); g.addColorStop(1, '#FBE3EA');
+    ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+    ctx.strokeStyle = '#F1C6D3'; ctx.lineWidth = 6; ctx.strokeRect(40, 40, W - 80, H - 80);
+
+    var p = new Path2D(HEART_PATH);
+    ctx.lineJoin = 'round'; ctx.lineCap = 'round';
+    var s = 2.6;
+    ctx.save(); ctx.translate(W / 2 - 100 * s, 150);
+    ctx.scale(s, s);
+    ctx.strokeStyle = '#D4557A'; ctx.lineWidth = 7; ctx.stroke(p);
+    ctx.save(); ctx.translate(60, 18); ctx.translate(68, 80); ctx.rotate(8 * Math.PI / 180); ctx.translate(-68, -80);
+    ctx.strokeStyle = '#FFF5F7'; ctx.lineWidth = 13; ctx.stroke(p);
+    ctx.strokeStyle = '#C94A70'; ctx.lineWidth = 7; ctx.stroke(p);
+    ctx.restore(); ctx.restore();
+
+    ctx.textAlign = 'center'; ctx.fillStyle = '#1F1F24';
+    ctx.font = '600 64px "Playfair Display","Noto Sans SC",serif';
+    ctx.fillText(lastSync.a + '  &  ' + lastSync.b, W / 2, 660);
+    ctx.fillStyle = '#C94A70';
+    ctx.font = '700 230px "Playfair Display",serif';
+    ctx.fillText(lastSync.pct + '%', W / 2, 880);
+    ctx.fillStyle = '#7a7a82';
+    ctx.font = '500 32px Inter,"Noto Sans SC",sans-serif';
+    ctx.fillText(t('sync_label').toUpperCase(), W / 2, 940);
+    ctx.fillStyle = '#1F1F24';
+    ctx.font = '400 38px Inter,"Noto Sans SC",sans-serif';
+    wrapText(ctx, t('msgs')[lastSync.tier], W / 2, 1040, 840, 54);
+    ctx.fillStyle = '#C94A70';
+    ctx.font = '700 40px Inter,sans-serif';
+    ctx.fillText('$2H · Two Hearts, One Soul', W / 2, 1245);
+
+    var a = document.createElement('a');
+    a.download = 'two-hearts-2H-sync.png';
+    try { a.href = c.toDataURL('image/png'); } catch (e) { return; }
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  });
+
+  /* Language buttons */
+  document.querySelectorAll('.lang-btn').forEach(function (b) {
+    b.addEventListener('click', function () { applyLang(b.getAttribute('data-lang')); });
+  });
+
+  /* Floating hearts */
+  (function () {
+    var box = document.getElementById('floaters');
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    for (var i = 0; i < 14; i++) {
+      var el = document.createElement('span');
+      el.className = 'float-heart';
+      el.textContent = '♥';
+      el.style.left = (Math.random() * 100) + '%';
+      el.style.fontSize = (14 + Math.random() * 26) + 'px';
+      el.style.animationDuration = (12 + Math.random() * 14) + 's';
+      el.style.animationDelay = (-Math.random() * 20) + 's';
+      box.appendChild(el);
+    }
+  })();
+
+  /* Reveal on scroll */
+  (function () {
+    var items = document.querySelectorAll('.reveal');
+    if (!('IntersectionObserver' in window)) { items.forEach(function (i) { i.classList.add('in'); }); return; }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+    }, { threshold: 0.12 });
+    items.forEach(function (i) { io.observe(i); });
+  })();
+
+  applyLang(lang);
+})();
+</script>
+</body>
+</html>
